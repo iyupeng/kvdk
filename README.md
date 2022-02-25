@@ -97,6 +97,7 @@ mount -t tmpfs -o size=2G tmpfs /mnt/pmem0
 export PMEM_IS_PMEM_FORCE=1
 
 cd kvdk/build/examples
+
 # Note: this requires CPU supporting AVX512
 ./cpp_api_tutorial
 
